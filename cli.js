@@ -8,7 +8,7 @@ import Table from "cli-table3";
 const { JSDOM } = jsdom;
 
 program
-  .version("0.0.1")
+  .version("0.0.2")
   .option(
     "-a, --add <url>",
     "Add notification target ex: https://github.com/<username>/<repository>",
