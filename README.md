@@ -16,7 +16,7 @@ npm install -g notify-github-release
 
 ## Step2
 
-### About the NOTIFICATION_TARGET file
+### Add information to the NOTIFICATION_TARGET file
 
 The URL and version listed in this file will be compared with the latest version information on Github.
 
@@ -24,3 +24,10 @@ The URL and version listed in this file will be compared with the latest version
 
 `https://github.com/<username>/<repository1>` v1.23.4  
 `https://github.com/<username>/<repository2>` 5.6.7
+
+# Execute
+```
+npm run ngr
+```
+
+![image](https://user-images.githubusercontent.com/40861943/200334990-776ccbec-bc7e-4f90-bb7f-0083c5227c4a.png)
