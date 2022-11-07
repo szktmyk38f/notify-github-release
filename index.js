@@ -14,6 +14,15 @@ const { JSDOM } = jsdom;
   });
 
   const fileCharacters = file.readFileCharacter();
+  if (fileCharacters == undefined) {
+    console.log(
+      "The NOTIFICATION_TARGET file does not exist.Please add it with the -a option."
+    );
+    console.log(
+      "Check https://github.com/szktmyk38f/notify-github-release for details."
+    );
+    process.exit(0);
+  }
   const perLineArray = fileCharacters.split("\n");
 
   for (const perLine of perLineArray) {
