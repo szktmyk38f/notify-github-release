@@ -1,21 +1,28 @@
 {
   "name": "notify-github-release2",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Notify when there is an update to the release version of the repository on github.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ngr": "node index.js"
+    "ngr": "node index.js",
+    "ngr -v": "node index.js -v",
+    "ngr --version": "node index.js -v",
+    "ngr -h": "node index.js -h",
+    "ngr -a": "node index.js -a",
+    "ngr --add": "node index.js -a",
+    "ngr -l": "node index.js -l",
+    "ngr --list": "node index.js -l",
+    "ngr -d": "node index.js -d",
+    "ngr --del": "node index.js -d"
   },
   "author": "Tomoyuki",
   "license": "MIT",
-  "devDependencies": {
-    "jsdom": "^20.0.2",
-    "node-fetch": "^3.2.10"
-  },
   "type": "module",
   "dependencies": {
     "cli-table3": "^0.6.3",
-    "commander": "^9.4.1"
+    "commander": "^9.4.1",
+    "jsdom": "^20.0.2",
+    "node-fetch": "^3.2.10"
   }
 }
