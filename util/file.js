@@ -1,6 +1,8 @@
 import fs from "fs";
 
-const filePath = "./resource/NOTIFICATION_TARGET";
+const userHome =
+  process.env[process.platform == "win32" ? "USERPROFILE" : "HOME"];
+const filePath = `${userHome}/\\NOTIFICATION_TARGET`;
 
 export default {
   /**
