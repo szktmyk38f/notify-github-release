@@ -1,13 +1,11 @@
 {
-  "name": "notify-github-release",
-  "version": "0.0.1",
+  "name": "notify-github-release2",
+  "version": "0.0.3",
   "description": "Notify when there is an update to the release version of the repository on github.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin": {
-    "ngr": "index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ngr": "node index.js"
   },
   "author": "Tomoyuki",
   "license": "MIT",
