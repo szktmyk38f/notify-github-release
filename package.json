@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "notify-release": "index.js"
+    "ngr": "index.js"
   },
   "author": "Tomoyuki",
   "license": "MIT",

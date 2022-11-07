@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const file = "./NOTIFICATION_TARGET";
+const filePath = "./resource/NOTIFICATION_TARGET";
 
 export default {
   /**
@@ -10,26 +10,26 @@ export default {
    */
   addNotificationTarget(url, version) {
     try {
-      fs.appendFileSync(file, `${url} ${version}\n`, "utf8");
+      fs.appendFileSync(filePath, `${url} ${version}\n`, "utf8");
     } catch (err) {
       console.log(err);
     }
   },
   readFileCharacter() {
     try {
-      return fs.readFileSync(file, "utf8");
+      return fs.readFileSync(filePath, "utf8");
     } catch (err) {}
   },
   createFile() {
     try {
-      fs.writeFileSync(file, "");
+      fs.writeFileSync(filePath, "");
     } catch (err) {
       console.log(err);
     }
   },
   deleteFile() {
     try {
-      fs.unlinkSync(file);
+      fs.unlinkSync(filePath);
     } catch (err) {
       console.log(err);
     }

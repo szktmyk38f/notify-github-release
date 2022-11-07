@@ -1,7 +1,7 @@
 import { Command } from "commander";
 import fetch from "node-fetch";
 import jsdom from "jsdom";
-import file from "./util/file.js";
+import file from "./file.js";
 import Table from "cli-table3";
 const { JSDOM } = jsdom;
 const program = new Command();
