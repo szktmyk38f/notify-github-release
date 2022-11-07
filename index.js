@@ -10,7 +10,7 @@ const { JSDOM } = jsdom;
     "span.css - truncate.css - truncate - target.text - bold.mr - 2";
 
   let table = new Table({
-    head: ["Latest version", "Local version", "Condition"],
+    head: ["URL", "Latest version", "Local version", "Condition"],
   });
 
   const fileCharacters = file.readFileCharacter();
@@ -39,9 +39,10 @@ const { JSDOM } = jsdom;
       dom.window.document.querySelector(targetClass).textContent;
 
     if (latestVersion == localVersion) {
-      table.push([latestVersion, localVersion, "No change"]);
+      table.push([url, latestVersion, localVersion, "No change"]);
     } else if (latestVersion > localVersion) {
       table.push([
+        url,
         latestVersion,
         localVersion,
         "\x1b[36mNew version has been released!\x1b[0m",

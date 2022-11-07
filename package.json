@@ -1,6 +1,6 @@
 {
   "name": "notify-github-release2",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Notify when there is an update to the release version of the repository on github.",
   "main": "index.js",
   "scripts": {
