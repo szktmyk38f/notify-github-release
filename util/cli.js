@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { Command } from "commander";
 import fetch from "node-fetch";
 import jsdom from "jsdom";
@@ -7,7 +9,7 @@ const { JSDOM } = jsdom;
 const program = new Command();
 
 program
-  .version("0.0.1")
+  .version("0.0.6")
   .option(
     "-a, --add <url>",
     "Add notification target ex: https://github.com/<username>/<repository>",

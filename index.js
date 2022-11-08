@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import * as commander from "./util/cli.js";
 import file from "./util/file.js";
 import fetch from "node-fetch";
