@@ -2,6 +2,8 @@
 
 You can see when a new release is available for a target repository on Github, right from the CUI!
 
+![image](https://user-images.githubusercontent.com/40861943/200334990-776ccbec-bc7e-4f90-bb7f-0083c5227c4a.png)
+
 # necessary
 
 - [Install the latest stable version of Node.js.](https://nodejs.org/)
@@ -30,8 +32,6 @@ ngr -a https://github.com/microsoft/playwright
 ```
 ngr
 ```
-
-![image](https://user-images.githubusercontent.com/40861943/200334990-776ccbec-bc7e-4f90-bb7f-0083c5227c4a.png)
 
 # Warning
 In the current specification, processing is based on the image version value. Repositories that do not show a value here will not work correctly.
