@@ -1,5 +1,5 @@
 {
-  "name": "notify-github-release",
+  "name": "@szktmyk38f/notify-github-release",
   "version": "0.0.8",
   "description": "Notify when there is an update to the release version of the repository on github.",
   "main": "index.js",
@@ -23,6 +23,6 @@
     "url": "https://github.com/szktmyk38f/notify-github-release"
   },
   "publishConfig": {
-		"registry": "https://npm.pkg.github.com"
+		"registry": "https://npm.pkg.github.com/@szktmyk38f"
 	}
 }
