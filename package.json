@@ -1,6 +1,6 @@
 {
   "name": "notify-github-release",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Notify when there is an update to the release version of the repository on github.",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,12 @@
     "commander": "^9.4.1",
     "jsdom": "^20.0.2",
     "node-fetch": "^3.2.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szktmyk38f/notify-github-release"
+  },
+  "publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	}
 }

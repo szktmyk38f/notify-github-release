@@ -9,7 +9,7 @@ const { JSDOM } = jsdom;
 const program = new Command();
 
 program
-  .version("0.0.7")
+  .version("0.0.8")
   .option(
     "-a, --add <url>",
     "Add notification target ex: https://github.com/<username>/<repository>",
