@@ -20,25 +20,26 @@ npm install -g notify-github-release
 
 ### Add information to the NOTIFICATION_TARGET file
 
-
 ```bash
-# exmple
+# example
 ngr -a https://github.com/RocketChat/Rocket.Chat
 ngr -a https://github.com/microsoft/playwright
 ```
 
-
 # Execute
+
 ```
 ngr
 ```
 
 # Warning
+
 In the current specification, processing is based on the image version value. Repositories that do not show a value here will not work correctly.
 
 ![image](https://user-images.githubusercontent.com/40861943/200598396-48be3f46-184f-4926-8772-c52ee9376d66.png)
 
 # Options
+
 ```bash
 $ ngr -h
 Usage: index [options]
@@ -50,4 +51,3 @@ Options:
   -d, --del <no>   Delete the target URL. (default: null)
   -h, --help       display help for command
 ```
-
